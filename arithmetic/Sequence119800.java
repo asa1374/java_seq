@@ -24,16 +24,13 @@ public class Sequence119800 {
         int AN = 0;
         while(true){
         	AN++;
-        	S += (2+(D*AN));
-        	System.out.println("Count is "+A+" Number is "+(2+(D*AN))+" Sum is " + S);
+        	S += (N+(D*AN));
+        	System.out.println("Count is "+A+" Number is "+(N+(D*AN))+" Sum is " + S);
             A++;
-        	if(A<=200) {
-            	continue;
-            }else {
+        	if(A>5) {
             	break;
             }
-            // 이 곳을 채우시오
         }
-        System.out.println("S is "+ S);
+        System.out.printf("S is %d",S);
 	}
 }
